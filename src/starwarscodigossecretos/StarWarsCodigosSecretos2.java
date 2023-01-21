@@ -97,7 +97,7 @@ public class StarWarsCodigosSecretos2 {
         int suma = 0;
         for (int i = sistema; i <= sector; i++) {
             suma += i;
-        }
+        } 
 
         return suma;
     }

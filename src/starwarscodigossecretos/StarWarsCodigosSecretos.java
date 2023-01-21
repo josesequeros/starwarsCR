@@ -34,23 +34,12 @@ public class StarWarsCodigosSecretos {
         nivel = 1;
         while (nivel <= 5) {
             switch (nivel) {
-                case 1:
-                    respuesta = nivel1();
-                    break;
-                case 2:
-                    respuesta = nivel2();
-                    break;
-                case 3:
-                    respuesta = nivel3();
-                    break;
-                case 4:
-                    respuesta = nivel4();
-                    break;
-                case 5:
-                    respuesta = nivel5();
-                    break;
-                default:
-                    nivel = 6;
+                case 1 -> respuesta = nivel1();
+                case 2 -> respuesta = nivel2();
+                case 3 -> respuesta = nivel3();
+                case 4 -> respuesta = nivel4();
+                case 5 -> respuesta = nivel5();
+                default -> nivel = 6;
 
             }
             if (respuesta) {
