@@ -84,8 +84,6 @@ public class StarWarsCodigosSecretos2 {
         System.out.println("Nivel 1");
         sistema = (int) (1 + Math.random() * (11));
         sector = (int) (20 + Math.random() * (11));
-        
-        public static int nombre = nivel1();
 
         String texto = "Los problemas empiezan cuando deben realizar un salto hiperespacial hasta al\n"
                 + "sistema " + sistema + " en el sector " + sector + ", pero el sistema de navegación está estropeado y el\n"
