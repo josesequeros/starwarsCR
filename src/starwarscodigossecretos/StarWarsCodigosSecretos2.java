@@ -17,14 +17,13 @@ public class StarWarsCodigosSecretos2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int respuestaNumero;
         int respuesta = 0, tuRespuesta;
         int nivel = 0;
 
         Scanner entrada = new Scanner(System.in);
         System.out.print("Introduce el ancho del terreno: ");
 
-        respuestaNumero = mostrarTexto("Hace mucho tiempo, en una galaxia muy, muy lejana… \n"
+        mostrarTexto("Hace mucho tiempo, en una galaxia muy, muy lejana… \n"
                 + "La Princesa Leia, Luke Skywalker, Han Solo, Chewbacca, C3PO y R2D2 \n"
                 + "viajan en una nave imperial robada en una misión secreta para \n"
                 + "infiltrarse en otra estrella de la muerte que el imperio está \n"
@@ -71,10 +70,9 @@ public class StarWarsCodigosSecretos2 {
         //System.out.println(respuestaNumero);
     }
 
-    public static int mostrarTexto(String texto) {
+    public static void mostrarTexto(String texto) {
         System.out.println(texto);
         System.out.println("");
-        return 0;
     }
 
     public static int nivel1() {
